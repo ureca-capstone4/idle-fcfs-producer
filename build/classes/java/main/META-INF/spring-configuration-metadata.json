@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "event.fcfs",
+      "type": "com.ureca.idle.producer.event.FcfsEventProperties",
+      "sourceType": "com.ureca.idle.producer.event.FcfsEventProperties"
+    },
+    {
+      "name": "jwt",
+      "type": "com.ureca.idle.producer.caller.web.jwt.JwtProperties",
+      "sourceType": "com.ureca.idle.producer.caller.web.jwt.JwtProperties"
+    },
+    {
+      "name": "spring.data.redis",
+      "type": "com.ureca.idle.producer.client.config.RedisProperties",
+      "sourceType": "com.ureca.idle.producer.client.config.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "event.fcfs.limit",
+      "type": "java.lang.String",
+      "sourceType": "com.ureca.idle.producer.event.FcfsEventProperties"
+    },
+    {
+      "name": "event.fcfs.title",
+      "type": "java.lang.String",
+      "sourceType": "com.ureca.idle.producer.event.FcfsEventProperties"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ureca.idle.producer.caller.web.jwt.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ureca.idle.producer.caller.web.jwt.JwtProperties"
+    },
+    {
+      "name": "spring.data.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.ureca.idle.producer.client.config.RedisProperties"
+    },
+    {
+      "name": "spring.data.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ureca.idle.producer.client.config.RedisProperties"
+    }
+  ],
+  "hints": []
+}
