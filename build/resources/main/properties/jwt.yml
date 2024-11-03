@@ -1,3 +1,0 @@
-jwt:
-  secret: dummy-key-dummy-key-dummy-key-dummy
-  expiration: 360000000
